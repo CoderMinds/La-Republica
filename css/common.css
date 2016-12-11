@@ -13,21 +13,16 @@ footer {
 .footer-info {
 	position: relative;
 	transform: translateY(50%);
-}
-
-/*.displa-table {
-	display: table-cell;
-    float: none;
-    vertical-align: top;border-left: 1px solid #fff;
-}*/
-.display-table-col span{
-	color: #1f1f1f;
-	font-size: 13px;
-	text-decoration: none;
+	
 }
 .display-table-col{
 	border-left: 1px solid #fff;
 	padding-top: 10px;
+}
+.display-table-col span{
+	color: #1f1f1f;
+	font-size: 13px;
+	text-decoration: none;
 }
 
 /* Footer and list-inline */
