@@ -43,3 +43,24 @@ footer {
     border-right: 0;
     padding: 0;
 }
+
+
+/* Secciones */
+
+#section2 .navnav {
+  background-color: #ba1414;
+  border-radius: 5px; }
+  
+#section2 .navnav li {
+    display: inline;
+    margin-top: 15px;
+    margin-bottom: 5px; }
+    
+#section2 .navnav li a {
+      font-family: "PT Sans";
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: bold;
+      margin-left: 8px;
+      margin-right: 8px; }
+
