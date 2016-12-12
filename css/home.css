@@ -1,1 +1,99 @@
 /* Inserta tu código de la página home/index acá */
+
+/* -----------------------------------------------------------------TITULAR-------------- */
+.icon-container {
+    padding: 0 0 2.5% 0;
+}
+.text-black {
+    color:#000;
+    font-weight: bold;
+}
+.caja-t {
+    position: relative;
+    padding: 0 5% 5% 5%;
+    color:#fff !important;
+}
+.caja-t b {
+     color:#fff !important;
+}
+.caja-t p {
+    position: absolute;
+    left: 10px;
+    bottom: 35px;
+    width: 100%;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px black;
+}
+.ct-icon {
+    position: absolute;
+    left:10px;
+    bottom: 15px;
+    width: 100%;  
+}
+.ct-icon .icon-s {
+    margin-right: 1%;
+}
+.ct-uno {
+    background: url(../image/img_grid_principal.jpg)center center;
+    background-size: cover;
+    padding: 52% 0 ;
+    box-shadow: inset 30px -90px 100px 10px rgba(0, 0, 0, 0.5);
+}
+.ct-uno p {
+    font-size: 27px;
+}
+.ct-dos {
+    background: url(../image/img_grid_secundario.jpg) center center;
+    background-size: cover;
+    padding: 25% 0 ;
+    margin-bottom: 18.3px;
+    box-shadow: inset 30px -90px 100px 10px rgba(0, 0, 0, 0.5); 
+}
+.ct-dos, .ct-tres {
+    font-size: 18px;
+}
+.ct-tres {
+    background: url(../image/img_grid_secundario.jpg) center center;
+    background-size: cover;
+    padding: 25% 0 ;
+    box-shadow: inset 30px -90px 100px 10px rgba(0, 0, 0, 0.5); 
+}
+
+
+/* -----------------------------------------------------------------ICONOS-TITULAR------- */
+.icon-s {
+    margin: 0 0.5%;
+}
+.ico{
+	background-color: #EDEFF0 ;
+	border-radius: 5px;
+}
+.ico:hover{
+	background-color: #c7c7c7;
+	text-decoration: none;
+	color: #fff;
+}
+.icon-center {
+    margin: 0 1%;
+}
+.ico-fa{
+	box-shadow: 0px 3px 0px 0px rgba(15,47,207,1);
+	color:#0f2fcf ;
+	padding: 3px 4px 3px 9px;    
+}
+.ico-twi{
+	box-shadow:0px 3px 0px 0px rgba(16,156,207,1);
+	color: #109ccf;
+	padding: 3px 2px 3px 6px;    
+}
+.ico-goo{
+	box-shadow:0px 3px 0px 0px rgba(242,3,43,1);
+	color: #f2032b;
+	padding: 3px 4px 3px 8px;    
+}
+.ico-youtube{
+	color: red;
+}
+.punto-icon{
+	margin: 0 10px;
+} 
