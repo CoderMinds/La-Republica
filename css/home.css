@@ -97,3 +97,80 @@
 .punto-icon{
 	margin: 0 10px;
 } 
+/* columnistas */
+.columnista h1{
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    background-color:#ad1717;
+    color: white;
+    margin: 0 auto;
+    padding-top: 14px;
+    padding-bottom: 7px;
+    position: relative;
+    top: -15px;
+}
+.columnista hr{
+    position: relative;
+    top: 22px;
+    background-color:#ad1717;
+    padding: 3px
+}
+.columnista img{
+    background-size: cover;
+    border: 6px solid white;
+}
+.columnista .cajas{
+    background-color:rgba(233, 227, 227, 0.63);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+}
+.columnista p{
+    font-size: 12px;
+    padding-top: 4px;
+}
+.columnista h4{
+    font-size: 10px;
+}
+/* mercado */
+
+.noticias-destacadas{
+    margin-top: 20px;
+}
+.noticias-destacadas .imagen{
+    background-image: url(../image/img_especiales.jpg);
+    padding-bottom: 150px;
+    background-size: cover;
+    
+}
+.noticias-destacadas .caja1{
+    margin-left: -12px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-right: 10px
+}
+.noticias-destacadas .cajainterna{
+    color: white;
+    position: relative;
+    top: 140px;
+    text-align: center;
+}
+.noticias-destacadas .banner{
+    background-image: url(../image/banner-aside-home.jpg);
+    background-size: cover;
+    padding-bottom: 600px;
+    margin-left: -18px
+}
+.noticias-destacadas h2{
+    font-size: 22px;
+    color: red;
+    padding-bottom: 3px;
+    margin-top: 14px;
+}
+.noticias-destacadas button{
+    padding: 12px 25.4px;
+    background-color: white;
+    font-size: 15px;
+    background-size: cover;
+}
