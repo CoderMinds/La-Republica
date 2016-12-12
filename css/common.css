@@ -8,6 +8,14 @@ body p, body ul, body span {
 	box-sizing: border-box;
 }
 
+/*-------------------------------------------------------------------------------------TEMAS-DEL-DIA*/
+.temas-dia li{
+    margin: 0 5px;
+}
+.temas-dia li:after {
+    content: url(../image/bullet.gif);
+    margin-left: 10px;
+}
 
 
 
