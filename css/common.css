@@ -101,17 +101,21 @@ body p, body ul, body span {
 .complemento .redes .iconos .icon-google, .icon-youtube2{
    color: #D51F1E;
 } 
-
-
-
-
-
-
-
-
-
-
-
+/*--------------------------------Seccion Ultimas Noticias - Boton Ultimas Noticias */
+.btn {
+	display: block;
+    width: 100%;
+    background: #ba1414;
+    border: 1px solid #d10d0d;
+    padding: .3em;
+    margin: 1em auto;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'PT Sans',sans-serif;
+    border-radius: 3px;
+    max-width: 200px;
+	}
 /* Footer */
 footer {
 	background-color: #E3E3E3;
