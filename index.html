@@ -9,11 +9,11 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans" rel="stylesheet">
   <link rel="stylesheet" href="css/queries.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/home.css">
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -22,19 +22,35 @@
         <div class="container">
     <!---------BANNER-1-------->
             <a href="#"><img class="img-responsive center-block hidden-xs hidden-md" src="image/banner_top.jpg" alt="anuncio"></a> 
-    
-    
-
-
-
-
-
-
     <!---------ENCABEZADO Y NAVEGACIÓN-------->
-       
-       
-       
-       
+            <div class="row">
+                <div class="col-md-8">
+                   <ul class="lista-diarios list-inline">
+                       <li><a href="#">LIBERO.PE</a></li>
+                       <li><a href="#">ELPOPULAR.PE</a></li>
+                       <li><a href="#">FUNDACIÓN GUSTAVO MOHME LLONA </a></li>
+                   </ul>
+                </div>
+                <div class="col-md-4">
+                   <button class="btn btn-boletin">SUSCRÍBETE AL BOLETÍN</button>
+                </div>   
+                <div class="col-md-2">
+                   <ul class="lista-redes list-inline">
+                       <li><a href=""><icon class="fa fa-facebook-f"></icon></a></li>
+                       <li><a href=""><icon class="fa fa-twitter"></icon></a></li>
+                       <li><a href=""><icon class="fa fa-google"></icon></a></li>
+                       <li><a href=""><icon class="fa fa-envelope"></icon></a></li>
+                       <li><a href=""><icon class="fa fa-rss"></icon></a></li>
+                   </ul>
+                    
+                </div>
+                <div class="col-md-2">
+                   <div class="input-search">
+                            <input size="8" class="buscar" type="text" placeholder="BUSCAR">
+                            <i class="fa fa-search"></i>
+                        </div>
+                </div>
+            </div>
        
         </div>
     </section>  
@@ -42,9 +58,20 @@
 <!-------------------------------------------------------------------------------------------------------LOGO-EDITORIAL-----------> 
     <section class="logo-editorial">
          <div class="container">
-          
-      
-             
+             <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive" src="image/logo-la-republica.jpg" alt="La Republica">                
+                </div>  
+                <div class="col-md-5">
+                    <p>DOMINGO</p>
+                    <b>HABLA LA LIDERESA DEL NACIONALISMO</b> 
+                </div>   
+                <div class="col-md-5">
+                    <img class="img-editorial" src="image/img_editorial_text.jpg" alt="Editorial">
+                    <p><b>La corrupción, los orígenes</b> <br><italic>por:Gustavo Mohme Llona</italic></p>
+                    <img class="img-autor" src="image/img_author.jpg" alt="Autor">   
+                </div>
+            </div>        
           </div>                 
     </section>
     
@@ -60,6 +87,32 @@
 <!-------------------------------------------------------------------------------------------------------TEMAS-DEL-DÍA------------>      
     <section class="temas-del-dia">
          <div class="container">
+             <div class="row">
+                <div class="col-md-2">
+                   <p><b>TEMAS DEL DÍA</b></p>
+                </div>
+                <div class="col-md-14">
+                   <ul class="temas-dia autoplay list-inline">
+                       <li>Redes sociales</li>
+                       <li>Congreso del Perú</li>
+                       <li>Jaime Saavedra</li>
+                       <li>Arequipa</li>
+                       <li>PPK</li>
+                       <li>Youtube</li>
+                       <li>Fujimorismo</li>
+                       <li>Fútbol Peruano</li>
+                       <li>Ministerio de Educación</li>
+                       <li>Cultura Popular</li>
+                       <li>Descentralizado 2016</li>
+                       <li>Fuerza Popular</li>
+                       <li>Melgar</li>
+                       <li>Navidad</li>
+                       <li>Poder Ejecutivo</li>
+                   </ul>
+                    
+                </div>
+                 
+             </div>
           
       
              
@@ -480,5 +533,12 @@
 			</div>
 		</div>						
 	</footer>
+	
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/slick.js"></script>
+    
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    
 </body>
 </html>
