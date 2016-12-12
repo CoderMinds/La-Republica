@@ -2,12 +2,12 @@ body p, body ul, body span {
     font-family: "PT Sans","Helvetica",Arial,sans-serif;
 }
 * {
-    outline: 1px solid rgba(255,0,0,0.4);
+    
 	margin: 0%;
 	padding: 0%;
 	box-sizing: border-box;
 }
-/*--------------------------------Section Ultimas Noticias */
+/*--------------------------------outline: 1px solid rgba(255,0,0,0.4);Section Ultimas Noticias */
 .ultimas-noticias {
     font-family: "oswald",arial;
     font-size: 15px;
