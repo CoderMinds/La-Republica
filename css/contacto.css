@@ -1,36 +1,20 @@
-
-
  h3{
     font-size: 40px;
  }
 
-.radios{
-  margin-bottom: 10px;
-}
-.nombre {
-  margin: 0 20%;
-}
-
-}
-.radios .row{
-  margin-bottom: 40px;
-}
-
-#extampleField {
+ #extampleField {
    background-color: #E2E4E6;
-   margin-top: 6%;
+   margin-top: 4%;
     border-radius: 4px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 4px;
   -o-border-radius: 4px;
- }
-
- .form-mensaje{
-  padding: 3% 0 30% 2%;
-
-
+   
 }
-.radios .btn {
+.form-mensaje{
+  padding: 3% 0 30% 2%;
+}
+.col-lg-offset-5 .btn {
   background-color: black;
   color: white;
   margin:7% 0;
@@ -40,43 +24,6 @@
 .text-right{
   text-align: right;
 }
-
-@media screen and(max-width: 800px) {
-  .container{
-    width: auto;
-  }
-  
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
