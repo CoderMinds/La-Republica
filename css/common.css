@@ -11,14 +11,26 @@ body p, body ul, body span {
 /*-----------------------------------------------------------------------------------------HEADER-------------------------------------- */
 header {
     background-color: #eae8e8;
+    height: 120px;
 }
 /*-----------------------------------------------------------------------------------------ENCABEZADO Y NAVEGACION--------------------- */
-
+.btn-boletin {
+    font-size: 10px !important;
+    margin-top:6px !important;
+    padding:0.1px !important;
+}
+.navegacion {
+    position: relative;
+}
+.search {
+    position:absolute;    
+}
 
 /*-----------------------------------------------------------------------------------------LOGO-EDITORIAL--------------------- */
 .editorial {
     padding: 20px 0;
     text-align: right;
+    margin-top: 20px;
 }
 .editorial .rep {
     transform: translateY(50%);
