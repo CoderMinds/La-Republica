@@ -1,6 +1,83 @@
-/* Inserta tu código de la página contacto acá */
 
-/*-------------------------------------------------------------------------------------TEMAS-DEL-DIA*/
-.temas-dia li{
-    margin: 0 5%;
+
+ h3{
+    font-size: 40px;
+ }
+
+.radios{
+  margin-bottom: 10px;
 }
+.nombre {
+  margin: 0 20%;
+}
+
+}
+.radios .row{
+  margin-bottom: 40px;
+}
+
+#extampleField {
+   background-color: #E2E4E6;
+   margin-top: 6%;
+    border-radius: 4px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+ }
+
+ .form-mensaje{
+  padding: 3% 0 30% 2%;
+
+
+}
+.radios .btn {
+  background-color: black;
+  color: white;
+  margin:7% 0;
+  padding: 2% 30% 2% 30%;
+  
+}
+.text-right{
+  text-align: right;
+}
+
+@media screen and(max-width: 800px) {
+  .container{
+    width: auto;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
