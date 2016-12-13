@@ -122,10 +122,23 @@
     background-color:#ad1717;
     padding: 3px
 }
-.columnista img{
-    background-size: cover;
+.columnista .img-columnistas{
+    margin: 0 auto 10px;
     border: 6px solid white;
 }
+.columnistas .img-columnistas img {
+    border: 4px solid #fff;
+    margin: 0 auto 10px;
+}
+.cajas .titulo-columnista , .cajas .titulo-columnista:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.columnista a, .columnista a:hover {
+    color: #1f1f1f;
+    text-decoration: none;
+}
+
 .columnista .cajas{
     background-color:rgba(233, 227, 227, 0.63);
     padding-left: 35px;
@@ -357,6 +370,9 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAGklEQVQYV2
 .fotos-destacadas {
     padding: 0 0 1em 0;
     margin: 0 0 30px;
+} 
+.fotos-destacadas .row{
+    margin-bottom: 15px;
 }  
 .crossing-title {
     border-top: 4px solid #768696;
@@ -384,7 +400,7 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAGklEQVQYV2
 }
 .fotos-destacadas .detail h2 {
     font: 300 15px "Open Sans","Helvetica",Arial,sans-serif;
-
+    margin: 0;
     line-height: 1.3;
     letter-spacing: -.06em;
 }
