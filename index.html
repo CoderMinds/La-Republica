@@ -8,12 +8,12 @@
   <link rel="shortcut icon" type="image/x-icon" href="img/header.jpg">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|Oswald" rel="stylesheet">
   <link rel="stylesheet" href="css/queries.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
   <link rel="stylesheet" type="text/css" href="icons/style.css">
   <link rel="stylesheet" href="slick/slick.css">
   <link rel="stylesheet" href="slick/slick-theme.css">
   <link rel="stylesheet" type="text/css" href="icons/style.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/home.css">
 
@@ -21,12 +21,12 @@
 <body>
 
 <!-------------------------------------------------------------------------------------------------------HEADER------------------>
-    <section class="header">
+    <header>
         <div class="container">
     <!---------BANNER-1-------->
             <a href="#"><img class="img-responsive center-block hidden-xs hidden-md" src="image/banner_top.jpg" alt="anuncio"></a> 
     <!---------ENCABEZADO Y NAVEGACIÓN-------->
-            <div class="row">
+            <div class="row navegacion">
                 <div class="col-md-8">
                    <ul class="lista-diarios list-inline">
                        <li><a href="#">LIBERO.PE</a></li>
@@ -34,10 +34,10 @@
                        <li><a href="#">FUNDACIÓN GUSTAVO MOHME LLONA </a></li>
                    </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                    <button class="btn btn-boletin">SUSCRÍBETE AL BOLETÍN</button>
                 </div>   
-                <div class="col-md-2">
+                <div class="col-md-3">
                    <ul class="lista-redes list-inline">
                        <li><a href=""><icon class="fa fa-facebook-f"></icon></a></li>
                        <li><a href=""><icon class="fa fa-twitter"></icon></a></li>
@@ -48,7 +48,7 @@
                     
                 </div>
                 <div class="col-md-2">
-                   <div class="input-search">
+                   <div class="search">
                             <input size="8" class="buscar" type="text" placeholder="BUSCAR">
                             <i class="fa fa-search"></i>
                         </div>
@@ -56,35 +56,37 @@
             </div>
        
         </div>
-    </section>  
+    </header>  
      
 <!-------------------------------------------------------------------------------------------------------LOGO-EDITORIAL-----------> 
-    <section class="logo-editorial">
+    <section class="editorial">
          <div class="container">
              <div class="row">
-                <div class="col-md-6">
-                    <img class="img-responsive" src="image/logo-la-republica.jpg" alt="La Republica">                
-                </div>  
                 <div class="col-md-5">
-                    <p>DOMINGO</p>
+                    <img class="img-responsive rep" src="image/logo-la-republica.jpg" alt="La Republica">                
+                </div>  
+                <div class="col-md-6 info-fecha">
+                    <p class="fecha">DOMINGO</p>
                     <b>HABLA LA LIDERESA DEL NACIONALISMO</b> 
                 </div>   
-                <div class="col-md-5">
-                    <img class="img-editorial" src="image/img_editorial_text.jpg" alt="Editorial">
-                    <p><b>La corrupción, los orígenes</b> <br><italic>por:Gustavo Mohme Llona</italic></p>
-                    <img class="img-autor" src="image/img_author.jpg" alt="Autor">   
+                <div class="col-md-5 caja-editorial">
+                   <div class="fondo">
+                      <img class="img-editorial" src="image/img_editorial_text.jpg" alt="Editorial">
+                      <p><b>La corrupción, los orígenes</b> <br><italic>por:Gustavo Mohme Llona</italic></p>
+                      <img class="img-autor" src="image/img_author.jpg" alt="Autor">    
+                   </div>   
                 </div>
             </div>        
           </div>                 
     </section>
     
 <!-------------------------------------------------------------------------------------------------------SECCIONES---------------->  
-    <section class="secciones">
+    <section class="secciones"> 
          <div class="container">
-          
-      
+            
+         </div>
+        
              
-         </div>                 
     </section> 
        
 <!-------------------------------------------------------------------------------------------------------TEMAS-DEL-DÍA------------>      
@@ -364,7 +366,7 @@
   
    
 <!------------------------------------------------------------------------------------------------------------ULTIMAS-NOTICIAS-->  
-   <section class="ultimas-noticias">
+  <section class="ultimas-noticias">
     <div class="container">
       <div class="row contenido">
         <div class="col-md-11 col-principal">
@@ -547,7 +549,7 @@
             </div>
           </div>       
 
-<!---------------------------------------------------------------------------------------------------------ULTIMAS-NOTICIAS-boletin-->
+<!---------------------------------------------------------------------------------------------------------ULTIMAS-NOTICIAS-aweita-->
         <div class="aweita">
           <div class="title">
             <p class="text-center"><img src="image/logo_aweita.jpg" class="logo-aweita"></p>
@@ -620,7 +622,8 @@
             </div>
           </div>
         </div>
-      </div>         
+      </div>
+               
     </div>
   </section>       
                                                                
