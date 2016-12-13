@@ -16,16 +16,60 @@ header {
 /*-----------------------------------------------------------------------------------------ENCABEZADO Y NAVEGACION--------------------- */
 .btn-boletin {
     font-size: 10px !important;
-    margin-top:6px !important;
     padding:0.1px !important;
+    transform: translateY(-20%);
+}
+.btn-boletin:hover {
+    font-weight: bold;
+    color:#fff;
 }
 .navegacion {
     position: relative;
 }
-.search {
-    position:absolute;    
+.lupa {
+    position: absolute;
+    top:30%;
+    right: 10px;
 }
-
+.buscar {
+    background: #eae8e8;
+    padding: 4px 15px;
+    border-left: #000 !important;
+    border-right: #000 !important;
+    border-top:none;
+    border-bottom: none;
+    font-size: 12px;
+    transform: translateY(15%);
+}
+.lista-redes {
+    transform: translateY(25%);
+    text-align: right;
+}
+.fb {
+    color:#181890;
+}
+.tw {
+    color:#149dd9;
+}
+.goo {
+    color:#d00909;
+}
+.ma {
+    color:#ffbb03;
+}
+.rss {
+    color:#ff8000;
+}
+.lista-diarios {
+    transform: translateY(25%);
+}
+.lista-diarios a {
+    color:#696969;
+    font-size: 12px;
+}
+.lista-diarios a:hover {
+    text-decoration: none;
+}
 /*-----------------------------------------------------------------------------------------LOGO-EDITORIAL--------------------- */
 .editorial {
     padding: 20px 0;
@@ -135,6 +179,18 @@ header {
 
 
 /*-------------------------------------------------------------------------------------TEMAS-DEL-DIA*/
+.grey2 {
+    background: #d4d4d4;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.black {
+    border:1px solid #000;
+    background: #000;
+    color:#fff;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
 .temas-dia li{
     margin: 0 5px;
 }
@@ -142,10 +198,6 @@ header {
     content: url(../image/bullet.gif);
     margin-left: 10px;
 }
-
-
-
-
 
 /* Footer */
 footer {
