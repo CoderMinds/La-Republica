@@ -121,6 +121,7 @@ header {
     text-decoration: none;
 }
 
+
 /*-------------------------------------------------------------------------------------TEMAS-DEL-DIA*/
 .temas-dia li{
     margin: 0 5px;
@@ -133,59 +134,7 @@ header {
 
 
 
-/*--------------------------------Seccion Ultimas Noticias - Redes Sociales */
-.complemento .redes{
-	display: inline-block;    
-}
-.complemento .redes ul{
-    margin:0;
-}
-.complemento .redes ul li {
-    margin-right: 5px;
-}
-.redes li {
-    display: inline-block;
-    margin-right: 0;
-}
-.complemento .redes .iconos{
-    background-color:  #E3E3E3;
-    border-radius: 3px;
-    font-size: 15px;
-    padding: 4px 6px;
-}
-.complemento .redes #icon-bg-fb{
-    border-bottom: 3px solid #1A59A0;   
-}
-.complemento .redes #icon-bg-twitter{
-    border-bottom: 3px solid #5CB0DF;   
-}
-.complemento .redes #icon-bg-google{
-    border-bottom: 3px solid #D51F1E;   
-}
-.complemento .redes .iconos .icon-facebook{
-    color: #1A59A0;
-}
-.complemento .redes .iconos .icon-twitter2{
-    color: #5CB0DF;
-}
-.complemento .redes .iconos .icon-google, .icon-youtube2{
-   color: #D51F1E;
-} 
-/*--------------------------------Seccion Ultimas Noticias - Boton Ultimas Noticias */
-.btn {
-	display: block;
-    width: 100%;
-    background: #ba1414;
-    border: 1px solid #d10d0d;
-    padding: .3em;
-    margin: 1em auto;
-    color: #fff;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-family: 'PT Sans',sans-serif;
-    border-radius: 3px;
-    max-width: 200px;
-	}
+
 /* Footer */
 footer {
 	background-color: #E3E3E3;
