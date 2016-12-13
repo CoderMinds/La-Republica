@@ -283,3 +283,34 @@
     border-radius: 3px;
     max-width: 200px;
     }
+
+/*---------------------------------------------------------------------- Ultimas Noticias - Boletin */
+.boletin{
+     background:url(
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAGklEQVQYV2OMj483Xrhw4VlsNCMDHsBIG50AUycn9nYVATMAAAAASUVORK5CYII=
+    ) repeat;
+}
+.suscribete {
+    background-color: #FFF;
+    padding: 40px 20px 10px 20px;
+    margin: 0 10px;
+    text-align: center;
+    font-family: "PT Sans","Helvetica",Arial,sans-serif;
+    position: relative;
+    transform: translateY(-10%);
+    color: black;
+}
+.suscribete span {
+    font-weight: bold;
+}
+.img-suscribe{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+/*---------------------------------------------------------------------- Ultimas Noticias - aweita */
+.logo-aweita {
+    width: 100px;
+    height: 70px;
+}
