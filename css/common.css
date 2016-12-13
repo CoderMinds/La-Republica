@@ -1,8 +1,7 @@
-body p, body ul, body span {
+body p, body ul, body span, body small {
     font-family: "PT Sans","Helvetica",Arial,sans-serif;
 }
 * {
-    outline: 1px solid rgba(255,0,0,0.4);
 	margin: 0%;
 	padding: 0%;
 	box-sizing: border-box;
@@ -11,7 +10,7 @@ body p, body ul, body span {
 /*-----------------------------------------------------------------------------------------HEADER-------------------------------------- */
 header {
     background-color: #eae8e8;
-    height: 120px;
+    height: 10%;
 }
 /*-----------------------------------------------------------------------------------------ENCABEZADO Y NAVEGACION--------------------- */
 .btn-boletin {
@@ -121,6 +120,28 @@ header {
     vertical-align: top;
     margin-left: -4px;
 }
+/*------------------------------------------------------------------------------------------------MENU SECCIONES--------------------- */
+.desktop-menu {
+    background-color: #d60000;
+}
+.desktop-menu a {
+    color:#fff;
+    text-decoration: none;
+}
+.desktop-menu li:hover {
+    background-color: #0404ad;
+}
+.mobile-menu{
+    background-color: #d60000;
+    text-align: center;
+}
+.mobile-menu a {
+    color:#fff;
+    text-decoration: none;
+}
+.mobile-menu li:hover {
+    background-color: #0404ad;
+}
 /*------------------------------------------------------------------------------------------------ULTIMAS NOTICIAS--------------------- */
 .ultimas-noticias {
     font-family: "oswald",arial;
@@ -183,6 +204,9 @@ header {
     background: #d4d4d4;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
+    margin-bottom: 1%;
+    margin-left: 0.1%;
+    margin-right: 0.1%;
 }
 .black {
     border:1px solid #000;
@@ -231,27 +255,5 @@ footer {
     border-right: 0;
     padding: 0;
 }
-<<<<<<< HEAD
 
 
-/* Secciones */
-
-#section2 .navnav {
-  background-color: #ba1414;
-  border-radius: 5px; }
-  
-#section2 .navnav li {
-    display: inline;
-    margin-top: 15px;
-    margin-bottom: 5px; }
-    
-#section2 .navnav li a {
-      font-family: "PT Sans";
-      color: #ffffff;
-      font-size: 12px;
-      font-weight: bold;
-      margin-left: 8px;
-      margin-right: 8px; }
-
-=======
->>>>>>> master

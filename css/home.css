@@ -4,6 +4,12 @@
 .icon-container {
     padding: 0 0 2.5% 0;
 }
+.underline h1 {
+    font-size: 52px;
+}
+.underline:hover {
+    text-decoration: none;
+}
 .text-black {
     color:#000;
     font-weight: bold;

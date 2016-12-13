@@ -27,17 +27,17 @@
             <a href="#"><img class="img-responsive center-block hidden-xs hidden-md" src="image/banner_top.jpg" alt="anuncio"></a> 
     <!---------ENCABEZADO Y NAVEGACIÓN-------->
             <div class="row navegacion">
-                <div class="col-md-8">
+                <div class="col-md-8 col-xs-16">
                    <ul class="lista-diarios list-inline">
                        <li><a href="#">LIBERO.PE</a></li>
                        <li><a href="#">ELPOPULAR.PE</a></li>
                        <li><a href="#">FUNDACIÓN GUSTAVO MOHME LLONA </a></li>
                    </ul>
                 </div>
-                <div class="col-md-3">
-                   <button class="btn btn-boletin">SUSCRÍBETE AL BOLETÍN</button>
+                <div class="col-md-3 col-xs-6">
+                   <a href="http://larepublica.pe/boletin" target="_blank"><button class="btn btn-boletin">SUSCRÍBETE AL BOLETÍN</button></a> 
                 </div>   
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-6">
                    <ul class="lista-redes list-inline">
                        <li><a href=""><icon class="fa fa-facebook-f fb"></icon></a></li>
                        <li><a href=""><icon class="fa fa-twitter tw"></icon></a></li>
@@ -47,7 +47,7 @@
                    </ul>
                     
                 </div>
-                <div class="col-md-2">
+                <div class="col-md-2 col-xs-4">
                    <div class="search">
                             <input size="8" class="buscar" type="text" placeholder="BUSCAR">
                             <i class="fa fa-search lupa"></i>
@@ -62,14 +62,14 @@
     <section class="editorial">
          <div class="container">
              <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-5 col-xs-16 uno">
                     <img class="img-responsive rep" src="image/logo-la-republica.jpg" alt="La Republica">                
                 </div>  
-                <div class="col-md-6 info-fecha">
+                <div class="col-md-6 col-xs-16 info-fecha">
                     <p class="fecha">DOMINGO</p>
                     <b>HABLA LA LIDERESA DEL NACIONALISMO</b> 
                 </div>   
-                <div class="col-md-5 caja-editorial">
+                <div class="col-md-5 col-xs-16 caja-editorial">
                    <div class="fondo">
                       <img class="img-editorial" src="image/img_editorial_text.jpg" alt="Editorial">
                       <p><b>La corrupción, los orígenes</b> <br><italic>por:Gustavo Mohme Llona</italic></p>
@@ -83,10 +83,40 @@
 <!-------------------------------------------------------------------------------------------------------SECCIONES---------------->  
     <section class="secciones"> 
          <div class="container">
-            
+             <div class="text-right visible-xs">
+                 <button class="btn btn-primary" data-toggle="collapse" data-target="#main-navigation">Menú</button>
+             </div>
+             <nav class="hidden-xs">
+                 <ul class="desktop-menu list-inline text-right">
+				     <li><a href="#">POLÍTICA</a></li>
+					 <li><a href="#">ECONOMÍA</a></li>
+                     <li><a href="#">SOCIEDAD</a></li>
+					 <li><a href="#">ELECC.REGIONALES</a></li>
+					 <li><a href="#">DEPORTES</a></li>
+					 <li><a href="#">CHAMPIONS L.</a></li>
+					 <li><a href="#">ESPECTÁCULOS</a></li>
+					 <li><a href="#">ED. IMPRESA</a></li>
+					 <li><a href="#">REGIONALES</a></li>
+					 <li><a href="#">MÁS SECCIONES</a></li>
+                 </ul>
+             </nav>
+             <nav class="visible-xs">
+                 <div id="main-navigation" class="collapse">
+				     <ul  class="mobile-menu text-right">
+				         <li><a href="#">POLÍTICA</a></li>
+                         <li><a href="#">ECONOMÍA</a></li>
+                         <li><a href="#">SOCIEDAD</a></li>
+                         <li><a href="#">ELECC.REGIONALES</a></li>
+                         <li><a href="#">DEPORTES</a></li>
+                         <li><a href="#">CHAMPIONS L.</a></li>
+                         <li><a href="#">ESPECTÁCULOS</a></li>
+                         <li><a href="#">ED. IMPRESA</a></li>
+                         <li><a href="#">REGIONALES</a></li>
+                         <li><a href="#">MÁS SECCIONES</a></li>
+				     </ul>
+				</div>
+             </nav>
          </div>
-        
-             
     </section>   
 <!-------------------------------------------------------------------------------------------------------TEMAS-DEL-DÍA------------>      
     <section class="temas-del-dia">
@@ -613,6 +643,7 @@
         </div>
       </div>         
     </div>
+    </div>
   </section>     
 
                                                                
@@ -773,7 +804,6 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="js/slick.js"></script>
-
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     
 </body>
