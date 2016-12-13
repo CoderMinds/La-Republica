@@ -318,49 +318,18 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAGklEQVQYV2
 .aweita .title{
     margin: 15px 0;
 }
-
-.aweita .articulo {
-    margin-bottom: 20px;
-}
-.aweita .articulo .tabla{
-   
-    margin: 4px 11px 5px 11px;
-    display: table;
-}
-
-.aweita .articulo .img-item {
-    vertical-align: middle;
-    margin-left: 10px;
-}
-.aweita .articulo .img-item .picture{
-   
-    overflow: hidden;
-    margin-right: 12px;
-    float: left;
-    position: relative;
-}
-
-.aweita .articulo a h2 {
-    display: table-cell;
-    vertical-align: middle;
-    width: 160px;
-    height: 57px;
+.aweita .detail h2 {
+    font: 300 15px "Open Sans","Helvetica",Arial,sans-serif;
     margin: 0;
-    line-height: 130%;
-    font-family: "Open Sans","Helvetica",Arial,sans-serif;
-    font-size: 24px;
-
-    
-    }
-
-   .aweita .articulo a h2 span {
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 13px;
-    line-height: 1.25;
-    color: #333;
-    font-weight: bold;
+    line-height: 1.3;
+    letter-spacing: -.06em;
 }
+.aweita .row {
+    padding: 0 15px;
+    margin-bottom: 15px
+}
+
+/*---------------------------------------------------------------------- Ultimas Noticias - aweita - boton */
 .aweita .btn-aweita {
     height: 33px;
     margin: 8px 20px 0 20px;
@@ -374,21 +343,19 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAGklEQVQYV2
 .aweita .btn-aweita span a {
     color: #872f85;
 } 
+.aweita .photo img {
+    border: 0;
+}
 
-
-
+/*---------------------------------------------------------------------- Ultimas Noticias - fotos destacadas */
 .fotos-destacadas {
-    border-bottom: 1px solid #cdcdcd;
     padding: 0 0 1em 0;
     margin: 0 0 30px;
-
 }  
-
 .crossing-title {
     border-top: 4px solid #768696;
     position: relative;
 }
-
 .crossing-title span {
     display: inline-block;
     padding: 6px 10px;
@@ -400,57 +367,19 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAGklEQVQYV2
     text-transform: uppercase;
     font: 500 15px "Oswald","Helvetica",Arial,sans-serif;
 }
-
 .crossing-title span a, .crossing-title span a:hover {
     color: #fff;
 }
-
-.row {
-    margin-bottom: 15px;
+.fotos-destacadas .row {
+    margin-bottom: 0 -10px 15px -10px;
 }
-.row {
-    margin-left: -10px;
-    margin-right: -10px;
-}
-
 .col-sidebar a {
     color: #1f1f1f;
 }
-
-.fotos-destacadas .photo img {
-    border: 0;
-}
-
 .fotos-destacadas .detail h2 {
     font: 300 15px "Open Sans","Helvetica",Arial,sans-serif;
-    margin: 0;
+
     line-height: 1.3;
     letter-spacing: -.06em;
 }
-/*.aweita {
-    padding: 10px;
-    border: 1px solid #cdcdcd;
-    height: auto;
-    overflow: hidden;
-}
-.aweita .img-aweita{
-    width: 100px;
-    height: 57px;
-    display: inline;
-    max-width: 100%;
-}
-.aweita article .photo{
-    float: left;
-    margin: 0 10px 0 0;
-}
-.aweita article .descripcion {
-    padding: 0;
-    font-size: 15px;
-    line-height: 130%;
-}
 
-.aweita article .descripcion p a {
-    text-decoration: none;
-    color: #1a1a1a;
-    text-align: justify;
-}*/
