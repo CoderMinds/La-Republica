@@ -381,14 +381,11 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAGklEQVQYV2
     border-bottom: 1px solid #cdcdcd;
     padding: 0 0 1em 0;
     margin: 0 0 30px;
-
 }  
-
 .crossing-title {
     border-top: 4px solid #768696;
     position: relative;
 }
-
 .crossing-title span {
     display: inline-block;
     padding: 6px 10px;
@@ -400,15 +397,13 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAGklEQVQYV2
     text-transform: uppercase;
     font: 500 15px "Oswald","Helvetica",Arial,sans-serif;
 }
-
 .crossing-title span a, .crossing-title span a:hover {
     color: #fff;
 }
-
-.row {
+.fotos-destacadas .row {
     margin-bottom: 15px;
 }
-.row {
+.fotos-destacadas .row {
     margin-left: -10px;
     margin-right: -10px;
 }
@@ -426,6 +421,9 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAGklEQVQYV2
     margin: 0;
     line-height: 1.3;
     letter-spacing: -.06em;
+}
+.foto-container {
+    margin-bottom: 15px;
 }
 /*.aweita {
     padding: 10px;
