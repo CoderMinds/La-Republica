@@ -269,7 +269,7 @@
    color: #D51F1E;
 } 
 /*--------------------------------Seccion Ultimas Noticias - Boton Ultimas Noticias */
-.btn {
+.btn, .boletin .btn{
     display: block;
     width: 100%;
     background: #ba1414;
@@ -329,13 +329,12 @@ data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAFCAYAAACJmvbYAAAAGklEQVQYV2
 }
 
 .aweita .articulo .img-item {
-    display: table-cell;
     vertical-align: middle;
-  
+    margin-left: 10px;
 }
 .aweita .articulo .img-item .picture{
    
-        overflow: hidden;
+    overflow: hidden;
     margin-right: 12px;
     float: left;
     position: relative;
