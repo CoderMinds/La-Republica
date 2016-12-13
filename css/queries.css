@@ -1,5 +1,11 @@
 /* Inserta tu código de la página contacto acá */
 @media screen and (max-width:768px) {  
+	.ultimas-noticias .descripcion {
+		float: left;
+	}
+	.row-noticias .photo{
+    float: none;
+	}
 	footer {
 		background-color: #1a1a1a;
     	padding: 15px 0;
