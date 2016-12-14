@@ -50,3 +50,44 @@ h3 a{
 h5 a{
 	text-decoration: none !important;
 }
+
+#FRASE{
+
+    font-size: 15px;
+    width: 200px;
+    background-color:crimson;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 5px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#Columna{
+   margin-bottom: 30px;
+   margin-left: 10px;
+}
+#cajas3{
+    background-color:crimson;
+    padding: 18px;
+    
+}
+#cajas3 a{
+    color: white; 
+    border-radius: 13px;
+    font-size: 15px;
+    text-decoration: none;
+   transition: width 10s;
+    text-decoration:none;
+    cursor: auto;
+    padding: 12px;
+}
+#cajas3 a:hover {
+   
+    background-color:brown;
+}
+#caja6{
+    margin-left: 1px;
+}

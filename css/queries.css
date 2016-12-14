@@ -24,4 +24,8 @@
 		top:-190px;
 	    float: right;
 		}
+    .noticias-destacadas .banner{
+        display: none;
+    }
+    
 }
